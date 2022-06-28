@@ -1,0 +1,46 @@
+@media(max-width: 576px){
+    header{
+     padding: 0 2rem;
+    } 
+    .left-header a{
+     font-size: 20px;
+    }
+     #site-entry{
+     height: 100vh;
+     text-align: center;
+    }
+    .site-entry-all h1{
+     font-size: 2rem;
+     font-weight: bolder;
+    } .site-entry-left p{
+     font-size: 20px;
+    } 
+     .site-entry-right img {
+        display: none;
+     }
+     .site-entry-left button{
+       width: 90%;
+       font-size: 20px;
+     }
+     .site-entry-left .get{
+         margin-left: 3px;
+     }
+     .building-all{
+         display: flex;
+         flex-direction: column;
+     }
+     .building-left{
+         display: block;
+     }
+     .building-right .all-box .boxes {
+         width: 100%; 
+         
+     }
+     .bottom-content .all-blog{
+        display: flex;
+        flex-direction: column;
+     }
+     
+ 
+     
+ }
